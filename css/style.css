@@ -172,10 +172,10 @@ text-align: center;
 /* Black */
 
 color: #070707;
-padding: 70px 0 0;
+padding-top: 70px;
 }
 .Skills__programms {
-	padding: 90px 0 110px 0;
+	padding: 90px 0 110px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -277,7 +277,7 @@ color: #828282;
 	padding: 0 0 125px;
 }
 .footer__mediaitem:not(:last-child){
-padding: 0 60px 0;
+padding-right: 60px;
 }
 @media (max-width: 478.98px) {
 	.Skills__programms{
@@ -286,10 +286,10 @@ padding: 0 60px 0;
 	align-items:center;
 }
 	.footer__mediaitem:not(:last-child){
-padding: 0 30px 0;
+padding-right: 30px;
 }
 	.main__text{
 max-width: 120px;
-margin: 0 -50px 0;
+margin-right: -50px;
 }
 }
