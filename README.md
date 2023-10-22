@@ -2,4 +2,4 @@
 
 # Brick - A **solid**, modern, not-so-opinionated front-end boilerplate. #
 
-<a href="https://www.youtube.com/watch?v=Sagg08DrO5U"><img src='http://img.shields.io/badge/gandalf-approved-61C6FF.svg'></a>
+<a href="https://www.codefactor.io/repository/github/timofeyshumakov/denis_novik_web_portfolio"><img src="https://www.codefactor.io/repository/github/timofeyshumakov/denis_novik_web_portfolio/badge" alt="CodeFactor" /></a>
