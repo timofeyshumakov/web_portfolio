@@ -33,21 +33,17 @@ body {
 	line-height: 1;
 	background: #333333;
 font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 36px;
-
-
+font-size: min(1.25vw,24px);
+line-height: 150%;
 color: #FFFFFF;
 }
 
 .main_image img{
     position: absolute;
-bottom: -90px;
+bottom: -3.75rem;
 z-index: 1;
 Width:60%;
-Height:894px;
+Height:37.25rem;
 }
 .highlight{
 color: #FF0080;
@@ -61,15 +57,12 @@ display: flex;
 align-items: center;
 }
 .header__logo_img{
-	padding: 0 20px 0 0;
+	padding: 0 0.8rem 0 0;
 }
 .header__logo_txt{
-font-family: Poppins;
-font-size: 30px;
+font-size: 1.25rem;
 font-weight: 700;
-line-height: 45px;
-letter-spacing: 0em;
-text-align: left;
+line-height: 150%;
 color: #FFFFFF;
 
 }
@@ -84,15 +77,15 @@ color: #FFFFFF;
 }
 /* ---------------------------------------------------------------------------- */
 ._container {
-	max-width: 1920px;
-	padding: 0 0 0 15px;
-	margin: 0px auto;
+	max-width: 80rem;
+	padding: 0 0 0 0.6rem;
+	margin: 0 auto;
 	box-sizing: content-box;
 }
 ._container_main {
-	max-width: 1700px;
-	padding: 0px 0px;
-	margin: 0px auto;
+	max-width: 70.8rem;
+	padding: 0;
+	margin: 0 auto;
 	box-sizing: content-box;
 }
 ._ibg {
@@ -101,7 +94,7 @@ color: #FFFFFF;
 ._ibg img {
 	position: absolute;
 	top: 0;
-	left: -220px;
+	left: -9.2rem;
 	object-fit: cover;
 
 }
@@ -116,38 +109,31 @@ color: #FFFFFF;
 
 .header__container {
 	display: flex;
-	min-height: 222px;
+	min-height: 9.2rem;
 	align-items: center;
 justify-content: space-between;
-max-width: 1700px;
+max-width: 70.8rem;
 
 }
 
 .menu {
 
 
-  margin-right:15px;
+  margin-right:0.75rem;
 
 }
 .menu__list {
 justify-content: space-between;
 	display: flex;
+	gap: 3.75rem;
 
 }
-.menu__item {
-	
-}
-.menu__item:not(:last-child){
-		margin: 0px 90px 0px 0px;
-}
-
-
 
 .menu__link {
 font-family: Raleway;
-font-size: 30px;
+font-size: 1.25rem;
 font-weight: 700;
-line-height: 35px;
+line-height: 1.5rem;
 letter-spacing: 0em;
 text-align: left;
 color: #FFFFFF;
@@ -155,44 +141,25 @@ color: #FFFFFF;
 
 }
 .home_txt{
-	padding: 0 0 0 20px;
+	padding-right: 0.8rem;
 }
 
 .main-block__title{
-/* I'm Keisha Levronka */
-font-family: 'Poppins';
-font-style: normal;
 font-weight: 700;
-font-size: 50px;
-line-height: 75px;
+font-size: 2rem;
+line-height: 3.1rem;
 color: #FF0080;
 
 }
 .main-block__sub_title{
-
-
-/* Front End & UI UX Designer */
-font-family: 'Poppins';
-font-style: normal;
 font-weight: 500;
-font-size: 33px;
-line-height: 50px;
+font-size: 1.4rem;
+line-height: 2rem;
 /* identical to box height */
 
 color: #FF0080;
 }
 
-.main-block__text{
-font-family: Poppins;
-font-size: 24px;
-font-weight: 400;
-line-height: 36px;
-letter-spacing: 0em;
-text-align: left;
-color: #FFFFFF;
-
-
-}
 .main-block__container {
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -208,9 +175,7 @@ grid-template-columns: 1fr 1fr;
 display: grid;
 
 }
- .main-block__body>* {
 
-    }
 .main-block__column{
 	background: #333333;
 display: flex;
@@ -220,7 +185,7 @@ position: relative;
 
 }
 .main-block__column:nth-child(1){
-margin: 120px 15px 0 50px;
+margin: 5rem 0.6rem 0 2rem;
 	}
 .main-block__column:nth-child(2){
 background: #FF0080;
@@ -228,53 +193,49 @@ width: 105%;
 }
 .main-block__column_text{
 	font-family: Raleway;
-font-size: 35px;
+font-size: 1.5rem;
 font-weight: 300;
-line-height: 41px;
+line-height: 1.7rem;
 letter-spacing: 0em;
 text-align: left;
 color: #FFFFFF;
 writing-mode: vertical-rl;
 transform: rotate(180deg);
-padding: 60px 80px 500px 0;
+padding: 2.5rem 3.3rem 20.8rem 0;
 }
 .main-block__column_number{
 	font-family: Raleway;
-font-size: 126px;
+font-size: 5.25rem;
 font-weight: 300;
-line-height: 148px;
+line-height: 117%;
 letter-spacing: 0em;
 text-align: left;
 color: #FFFFFF;
-    bottom: 80px;
-    right: 60px;
+    bottom: 3.3rem;
+    right: 2.5rem;
 position: absolute;
 }
 .main-block__column_some_rectangle{
 	background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.569) 100%);
-width: 415px;
-height: 176px;
+width: 17.3rem;
+height: 7.3rem;
 position: absolute;
 
   right: 0;
 
-  top: 400px;
+  top: 16.7rem;
 }
 .main-block__introduction{
 
 	display: flex;
 	flex-direction: column;
-	gap:60px;
-max-width: 652px;
+	gap:2.5rem;
+max-width: 27.2rem;
 }
 .main-block__hello{
-
-
-font-family: 'Poppins';
-font-style: normal;
 font-weight: 500;
-font-size: 34px;
-line-height: 51px;
+font-size: 1.5rem;
+line-height: 2rem;
 /* identical to box height */
 
 color: #FF0080;
@@ -285,26 +246,19 @@ color: #FF0080;
 
 display: flex;
 flex-direction: column;
-gap: 5px;
+gap: 0.2rem;
 }
 .main-block__buttons{
 	display: flex;
-margin: 90px 0 0 0;
+margin: 3.8rem 0 0 0;
 font-family: 'Arial';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 29px;
-/* identical to box height */
+line-height: 1.2rem;
 
 color: #FFFFFF;
 }
 .contact_me__buttons{
 	font-family: 'Arial';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 29px;
+line-height: 1.2rem;
 /* identical to box height */
 
 color: #FFFFFF;
@@ -317,21 +271,18 @@ color: #FFFFFF;
 
 .button{
 	display: flex;
-	padding: 20px 60px  ;
+	padding: 0.8rem 2.5rem  ;
 	white-space: nowrap;
 }
 .main-block__button_text{
 /* Email Me */
 
 font-family: 'Arial';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 29px;
+line-height: 1.2rem;
 /* identical to box height */
 
 color: #FFFFFF;
-padding: 0 0 0 20px;
+padding: 0 0 0 0.8rem;
 
 }
 .main-block__button:nth-child(2){
@@ -345,51 +296,44 @@ padding: 0 0 0 20px;
 	align-items: center;
 	flex-wrap: wrap;
 	width: 100%;
-	margin: 140px 0 0 0 ;
+	margin: 5.8rem 0 0 0 ;
 }
 .section__title{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
-    margin: 160px 0;
+    gap: 1.7rem;
+    margin: 6.7rem 0;
 }
-.reg_text{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 150%;
-color: #FFFFFF;
-}
+
 .title_text{
-font-family: 'Poppins';
-font-style: normal;
 font-weight: 700;
-font-size: 50px;
-line-height: 150%;
-color: #FFFFFF;
+font-size: 2rem;
 }
 .my_design_text{
-max-width: 720px;
+max-width: 30rem;
+}
+.portfolio{
+	width: 22.8rem;
+	height: 22.8rem;
 }
 .my_design__portfolio{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-column-gap: 30px;
-   grid-row-gap: 30px;
+	grid-column-gap: 1.25rem;
+   grid-row-gap: 1.25rem;
 
 }
 .socials{
 	display: flex;
 	flex-direction: column;
-	gap: 70px;
-	margin: 180px 80px 0 0;
+	gap: 2.9rem;
+	margin: 13.3rem 3.3rem 0 0;
 }
 .contact_me{
 	display: flex;
-	    padding: 50px 70px;
-	    margin: 140px 0 0 0;
+	    padding: 2rem 2.9rem;
+	    margin: 5.8rem 0 0 0;
 	background: #43413F;
 justify-content: space-between;
 align-items: center;
@@ -398,42 +342,34 @@ align-items: center;
 	display: flex;
 }
 .contact_me__button_text{
-	padding: 0 0 0 20px;
+	padding: 0 0 0 0.8rem;
 }
 .contact_me__button:nth-child(2){
 	border: 1px solid #FFFFFF;
-	margin: 0 0 0 60px;
+	margin: 0 0 0 2.5rem;
 }
 .contact_me__text{
-/* Interested working with me? */
-
-font-family: 'Poppins';
-font-style: normal;
 font-weight: 500;
-font-size: 30px;
-line-height: 45px;
-/* identical to box height */
-
+font-size: 1.25rem;
+line-height: 160%;
 color: #FFFFFF;
-
-
 }
 .why_hire_me__advantages{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-column-gap: 30px;
-   grid-row-gap: 30px;
-   padding: 0 15px 0 0;
+	grid-column-gap: 1.25rem;
+   grid-row-gap: 1.25rem;
+   padding: 0 0.6rem 0 0;
 }
 .footer{
-		margin: 260px 0 0 0;
+		margin: 10.8rem 0 0 0;
 }
 .footer__container{
 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 30px;
+	gap: 1.25rem;
 }
 
 .footer__contact_me{
@@ -443,10 +379,10 @@ color: #FFFFFF;
 
 
 font-family: 'Poppins';
-font-style: normal;
+
 font-weight: 700;
-font-size: 50px;
-line-height: 75px;
+font-size: 2rem;
+line-height: 3.1rem;
 /* identical to box height */
 
 color: #FFFFFF;
@@ -456,7 +392,7 @@ color: #FFFFFF;
 
 
 
-max-width: 720px;
+max-width: 30rem;
 }
 .why_hire_me__advantage_card{
 display: flex;
@@ -468,8 +404,8 @@ border: 1px solid #707070;
 background: #43413F;
 }
 .why_hire_me__advantage_card_rectangle{
-width: 61px;
-height: 119px;
+width: 2.5rem;
+height: 5rem;
 
 background: #FF0080;
 margin-left: auto;
@@ -477,20 +413,20 @@ margin-left: auto;
 .footer__contact_me_social{
 	display: flex;
 	flex-direction: row;
-	gap: 140px;
-	margin: 20px 0 0 0;
+	gap: 5.8rem;
+	margin: 0.8rem 0 0 0;
 }
 .footer__logo{
-	margin: 200px 0 0 0;
+	margin: 8.3rem 0 0 0;
 	line-height: 0;
 }
 .adv_text{
 color: #FF0080;
-font-size: 40px;
+font-size: 1.7rem;
 }
 .why_hire_me__advantage_card_article{
 	display: flex;
 	flex-direction: column;
-	gap:50px;
-	margin: 90px 15px 120px 15px;
+	gap:2rem;
+	margin: 3.8rem 0.6rem 5rem 0.6rem;
 }
