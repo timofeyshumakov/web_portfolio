@@ -1,4 +1,3 @@
-/* Обнуление */
 *,
 *::before,
 *::after {
@@ -35,7 +34,6 @@ h6 {
 html,
 body {
     height: 100%;
-    line-height: 1;
     background: #333333;
     font-family: 'Poppins';
     font-size: min(1.25vw, 24px);
@@ -43,7 +41,7 @@ body {
     color: #FFFFFF;
 }
 
-.main_image img {
+.main-image img {
     position: absolute;
     bottom: -3.75rem;
     z-index: 1;
@@ -51,33 +49,36 @@ body {
     Height: 37.25rem;
 }
 
+.header__logo{
+    display: flex;
+    gap: 0.8rem;
+}
+
 .highlight {
     color: #FF0080;
-
 }
 
 .header__logo {
-
-
-
     display: flex;
     align-items: center;
 }
 
-.header__logo-img {
-    padding: 0 0.8rem 0 0;
+.header__logo-img{
+    width: 1.4rem;
+    height: 1.4rem;
 }
 
+.social{
+    width: 1.7rem;
+    height: 1.7rem;
+}
 .header__logo-txt {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 150%;
     color: #FFFFFF;
-
 }
 
-
-/* ---------------------------------------------------------------------------- */
 .wrapper {
     min-height: 100%;
     overflow: hidden;
@@ -85,7 +86,6 @@ body {
     flex-direction: column;
 }
 
-/* ---------------------------------------------------------------------------- */
 .container {
     max-width: 80rem;
     padding: 0 0 0 0.6rem;
@@ -100,19 +100,17 @@ body {
     box-sizing: content-box;
 }
 
-._ibg {
+.-ibg {
     position: relative;
 }
 
-._ibg img {
+.-ibg img {
     position: absolute;
     top: 0;
     left: -9.2rem;
     object-fit: cover;
-
 }
 
-/* ---ШАПКА------------------------------------------------------------------------- */
 .header {
     position: absolute;
     width: 100%;
@@ -127,21 +125,16 @@ body {
     align-items: center;
     justify-content: space-between;
     max-width: 70.8rem;
-
 }
 
 .menu {
-
-
     margin-right: 0.75rem;
-
 }
 
 .menu__list {
     justify-content: space-between;
     display: flex;
     gap: 3.75rem;
-
 }
 
 .menu__link {
@@ -155,10 +148,12 @@ body {
 
 
 }
-.why-me__advantage-img{
+
+.why-me__advantage-img {
     width: 15.5rem;
-height: 15.5rem;
+    height: 15.5rem;
 }
+
 .menu__txt {
     padding-right: 0.8rem;
 }
@@ -168,15 +163,17 @@ height: 15.5rem;
     font-size: 2rem;
     line-height: 3.1rem;
     color: #FF0080;
-
 }
 
-.main-block__sub_title {
+.sub-title {
+    max-width: 30rem;
+    text-align: center;
+}
+
+.main-block__sub-title {
     font-weight: 500;
     font-size: 1.4rem;
     line-height: 2rem;
-    /* identical to box height */
-
     color: #FF0080;
 }
 
@@ -186,27 +183,23 @@ height: 15.5rem;
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
-
     flex-direction: row;
 }
 
 .main-block__body {
-
     display: grid;
-
 }
 
 .main-block__column {
     background: #333333;
     display: flex;
-
     flex-wrap: wrap;
     position: relative;
-
 }
 
 .main-block__column:nth-child(1) {
     margin: 5rem 0.6rem 0 2rem;
+    gap: 4rem;
 }
 
 .main-block__column:nth-child(2) {
@@ -214,7 +207,7 @@ height: 15.5rem;
     width: 105%;
 }
 
-.main-block__column_text {
+.main-block__column-text {
     font-family: Raleway;
     font-size: 1.5rem;
     font-weight: 300;
@@ -227,7 +220,7 @@ height: 15.5rem;
     padding: 2.5rem 3.3rem 20.8rem 0;
 }
 
-.main-block__column_number {
+.main-block__column-number {
     font-family: Raleway;
     font-size: 5.25rem;
     font-weight: 300;
@@ -240,19 +233,16 @@ height: 15.5rem;
     position: absolute;
 }
 
-.main-block__column_some_rectangle {
+.main-block__column-some-rectangle {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.569) 100%);
     width: 17.3rem;
     height: 7.3rem;
     position: absolute;
-
     right: 0;
-
     top: 16.7rem;
 }
 
 .main-block__introduction {
-
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -263,15 +253,10 @@ height: 15.5rem;
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 2rem;
-    /* identical to box height */
-
     color: #FF0080;
-
-
 }
 
 .main-block__heder {
-
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
@@ -279,25 +264,14 @@ height: 15.5rem;
 
 .main-block__buttons {
     display: flex;
-    margin: 3.8rem 0 0 0;
+    margin-top: 3.8rem;
     font-family: 'Arial';
     line-height: 1.2rem;
-
     color: #FFFFFF;
 }
 
-.contact__buttons {
-    font-family: 'Arial';
-    line-height: 1.2rem;
-    /* identical to box height */
-
-    color: #FFFFFF;
-}
-
-.email_me_button {
-
+.email-me-button {
     background: #FF0080;
-
 }
 
 .button {
@@ -306,22 +280,15 @@ height: 15.5rem;
     white-space: nowrap;
 }
 
-.main-block__button_text {
-    /* Email Me */
-
+.main-block__button-text {
     font-family: 'Arial';
     line-height: 1.2rem;
-    /* identical to box height */
-
     color: #FFFFFF;
     padding: 0 0 0 0.8rem;
-
 }
 
 .main-block__button:nth-child(2) {
-
     background: #333333;
-
 }
 
 .skills {
@@ -330,7 +297,7 @@ height: 15.5rem;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    margin: 5.8rem 0 0 0;
+    margin-top: 5.8rem;
 }
 
 .section-title {
@@ -346,18 +313,9 @@ height: 15.5rem;
     height: 5.2rem;
 }
 
-.title {
-    font-weight: 700;
-    font-size: 2rem;
-}
-
 .design__img {
     width: 22.8rem;
     height: 22.8rem;
-}
-
-.design_text {
-    max-width: 30rem;
 }
 
 .design__portfolio {
@@ -372,23 +330,27 @@ height: 15.5rem;
     display: flex;
     flex-direction: column;
     gap: 2.9rem;
-    margin: 13.3rem 3.3rem 0 0;
+    justify-content: center;
 }
 
 .contact {
     display: flex;
     padding: 2rem 2.9rem;
-    margin: 5.8rem 0 0 0;
+    margin-top: 5.8rem;
     background: #43413F;
     justify-content: space-between;
     align-items: center;
+    max-width: 65rem;
 }
 
 .contact__buttons {
+    font-family: 'Arial';
+    line-height: 1.2rem;
+    color: #FFFFFF;
     display: flex;
 }
 
-.contact__button_text {
+.contact__button-text {
     padding: 0 0 0 0.8rem;
 }
 
@@ -412,7 +374,7 @@ height: 15.5rem;
 }
 
 .footer {
-    margin: 10.8rem 0 0 0;
+    margin-top: 10.8rem;
 }
 
 .footer__container {
@@ -420,7 +382,7 @@ height: 15.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.25rem;
+    gap: 1.2rem;
 }
 
 .footer__contact {
@@ -428,24 +390,10 @@ height: 15.5rem;
 }
 
 .title {
-
-
-    font-family: 'Poppins';
-
     font-weight: 700;
     font-size: 2rem;
     line-height: 3.1rem;
-    /* identical to box height */
-
     color: #FFFFFF;
-
-}
-
-.text {
-
-
-
-    max-width: 30rem;
 }
 
 .why-me__advantage {
@@ -461,21 +409,32 @@ height: 15.5rem;
 .why-me__advantage-rectangle {
     width: 2.5rem;
     height: 5rem;
-
     background: #FF0080;
     margin-left: auto;
 }
 
-.footer__contact_social {
+.menu__rect{
+    margin-top: 0.2rem;
+    height: 1rem;
+    width: 0.3rem;
+    background: #FFFFFF;
+}
+.menu__item:first-child .menu__link{
+    gap: 1rem;
     display: flex;
-    flex-direction: row;
+}
+
+.footer__socials{
+    display: flex;
     gap: 5.8rem;
-    margin: 0.8rem 0 0 0;
+    margin-top: 0.8rem;
 }
 
 .footer__logo {
-    margin: 8.3rem 0 0 0;
+    margin-top: 8.3rem;
     line-height: 0;
+    width: 6.7rem;
+    height: 6.7rem;
 }
 
 .why-me__advantage-title {
@@ -487,5 +446,5 @@ height: 15.5rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin: 3.8rem 0.6rem 5rem 0.6rem;
+    margin: 3.8rem 0.6rem 5rem;
 }
