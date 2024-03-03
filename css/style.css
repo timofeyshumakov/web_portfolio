@@ -93,7 +93,7 @@ body {
     box-sizing: content-box;
 }
 
-.container_main {
+.container-main {
     max-width: 70.8rem;
     padding: 0;
     margin: 0 auto;
@@ -155,7 +155,10 @@ body {
 
 
 }
-
+.why-me__advantage-img{
+    width: 15.5rem;
+height: 15.5rem;
+}
 .menu__txt {
     padding-right: 0.8rem;
 }
@@ -406,7 +409,6 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1.25rem;
     grid-row-gap: 1.25rem;
-    padding: 0 0.6rem 0 0;
 }
 
 .footer {
