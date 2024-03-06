@@ -6,10 +6,10 @@
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/x-icon" href="img/logo.svg">
+	<link rel="icon" type="image/x-icon" href="assets/img/logo.svg">
   <link href="https://fonts.googleapis.com/css?family=Poppins:regular,400,500,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:regular,300,,400,500,600,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Company</title>
 </head>
 
@@ -17,8 +17,8 @@
   <div class="wrapper">
     <header class="header">
       <div class="header__container container">
-        <a class="header__logo" href="" >
-          <img class="header__logo-img" src="img/logo.svg" alt="logo">
+        <a class="header__logo" href="#">
+          <img class="header__logo-img" src="assets/img/logo.svg" alt="logo">
             <div class="header__logo-txt">IDesign</div>
           </a>
         <nav class="header__menu menu">
@@ -46,116 +46,100 @@
       </div>
     </header>
     <main class="page">
-      <div class="page__main-block main-block">
+      <section class="page__main-block main-block">
         <div class="main-block__container container">
           <div class="main-block__column">
-            <div class="socials">
-              <img class="main-block__social social" src="img/socials/social1.svg" alt="" title="">
-              <img class="main-block__social social" src="img/socials/social2.svg" alt="" title="">
-              <img class="main-block__social social" src="img/socials/social3.svg" alt="" title="">
+            <div class="main-block__socials socials">
+              <a href="https://dribbble.com/" target="_blank"><img class="main-block__social social" src="assets/img/socials/social1.svg" alt="" title=""></a>
+              <a href="https://www.behance.net/" target="_blank"><img class="main-block__social social" src="assets/img/socials/social2.svg" alt="" title=""></a>
+              <a href="https://www.instagram.com/" target="_blank"><img class="main-block__social social" src="assets/img/socials/social3.svg" alt="" title=""></a>
             </div>
             <div class="main-block__main">
               <div class="main-block__introduction">
                 <div class="main-block__heder">
                   <div class="main-block__hello">Hello</div>
-                  <div class="main-block__title title"><span class="highlight">I'm </span><span class="main-block__name">Keisha Levronka</span></div>
+                  <h1><span class="highlight">I'm </span><span class="main-block__name">Keisha Levronka</span></h1>
                   <div class="main-block__sub-title">Front End & UI UX Designer</div>
                 </div>
                 <div class="main-block__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </div>
               </div>
-              <div class="main-block__buttons">
-                <div class="main-block__button email-me-button button">
-                  <div class="main-block__button-graphick">
-                    <svg width="46" height="32" viewBox="0 0 46 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M30.603 16.2311L45.825 25.8541V6.20508L30.603 16.2311Z" fill="white" />
-                      <path d="M0.671997 6.20508V25.8581L15.894 16.2351L0.671997 6.20508Z" fill="white" />
-                      <path d="M43.004 0.478027H3.49702C2.82835 0.482828 2.1837 0.727881 1.68069 1.16847C1.17769 1.60906 0.849854 2.21582 0.757019 2.87803L23.249 17.699L45.741 2.87803C45.6483 2.21633 45.3209 1.60997 44.8185 1.16945C44.3161 0.728923 43.6722 0.483545 43.004 0.478027Z" fill="white" />
-                      <path d="M28.018 17.9361L24.025 20.5661C23.7944 20.7171 23.5247 20.7975 23.249 20.7975C22.9734 20.7975 22.7037 20.7171 22.473 20.5661L18.48 17.9331L0.762024 29.1401C0.857801 29.798 1.18595 30.3999 1.68708 30.8368C2.1882 31.2737 2.82919 31.5168 3.49402 31.5221H43.004C43.6692 31.5173 44.3107 31.2744 44.8122 30.8375C45.3138 30.4005 45.6422 29.7984 45.738 29.1401L28.018 17.9361Z" fill="white" />
-                    </svg>
-                  </div>
-                  <div class="main-block__button-text ">Email Me</div>
-                </div>
-                <div class="main-block__button button">
-                  <div class="main-block__button-graphick">
-                    <svg width="29" height="35" viewBox="0 0 29 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M27.315 21.7513L24.923 19.3583L15.866 28.4153L15.866 8.59326L12.448 8.59326L12.448 28.4153L3.39103 19.3583L0.999033 21.7503L14.157 34.9083L27.315 21.7513Z" fill="white" />
-                      <path d="M1.00003 6.24628V1.09326H27.4861V6.24628" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
-                    </svg>
-                  </div>
-                  <div class="main-block__button-text">Download CV</div>
-                </div>
+              <div class="main-block__buttons buttons">
+                <form method="post" action="mailto:zanuar.renaldie10@gmail.com">
+                <button class="main-block__button email-button">
+                  <img class="main-block__button-img" src="assets/img/email.svg" alt="" title="">
+                  <span class="main-block__button-text button-text">Email Me</span>
+                </button>
+              </form>
+                <form action="#">
+                <button class="main-block__button ">
+                    <img class="main-block__button-img" src="assets/img/download.svg" alt="" title="">
+                  <span class="main-block__button-text button-text">Download CV</span>
+                  </form>
+                </button>
               </div>
             </div>
           </div>
           <div class="main-block__column">
             <div class="main-block__column-text">Front End & UI UX Designer</div>
-            <div class="main-image">
-              <img src="img/main-image.png" alt="cover">
-            </div>
+            <picture><source srcset="assets/img/main-image.webp" type="image/webp"><img class="main-block__main-image" src="assets/img/main-image.png" alt="assets/img" title="" loading="lazy" tabindex="0"></picture>
             <div class="main-block__column-number">22</div>
             <div class="main-block__column-some-rectangle"></div>
           </div>
-        </div>
       </div>
-          <section class="skills container-main">
-            <img class="skills__img" src="img/skill/skill1.png" alt="skill">
-            <img class="skills__img" src="img/skill/skill2.png" alt="skill">
-            <img class="skills__img" src="img/skill/skill3.png" alt="skill">
-            <img class="skills__img" src="img/skill/skill4.png" alt="skill">
-            <img class="skills__img" src="img/skill/skill5.png" alt="skill">
+          <div class="main-block__skills skills container-main">
+            <picture><source srcset="assets/img/skills/skill1.webp" type="image/webp"><img class="skills__img" src="assets/img/skills/skill1.png" alt="skill" title="" loading="lazy" tabindex="0"></picture>
+            <picture><source srcset="assets/img/skills/skill2.webp" type="image/webp"><img class="skills__img" src="assets/img/skills/skill2.png" alt="skill" title="" loading="lazy" tabindex="0"></picture>
+            <picture><source srcset="assets/img/skills/skill3.webp" type="image/webp"><img class="skills__img" src="assets/img/skills/skill3.png" alt="skill" title="" loading="lazy" tabindex="0"></picture>
+            <picture><source srcset="assets/img/skills/skill4.webp" type="image/webp"><img class="skills__img" src="assets/img/skills/skill4.png" alt="skill" title="" loading="lazy" tabindex="0"></picture>
+            <picture><source srcset="assets/img/skills/skill5.webp" type="image/webp"><img class="skills__img" src="assets/img/skills/skill5.png" alt="skill" title="" loading="lazy" tabindex="0"></picture>
+            </div>
           </section>
           <section class="design">
             <div class="design__container container-main">
-
-
             <div class="design__section-title section-title">
-              <div class="design-title title"><span class="highlight">My</span> Design</div>
-              <div class="design-text sub-title">
+              <h2 class="design-title"><span class="highlight">My</span> Design</h2>
+              <h3 class="design-text">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-              </div>
+              </h3>
             </div>
             <div class="design__portfolio">
-              <img class="design__img" src="img/portfolio/portfolio1.png" alt="portfolio">
-              <img class="design__img" src="img/portfolio/portfolio2.png" alt="portfolio">
-              <img class="design__img" src="img/portfolio/portfolio3.png" alt="portfolio">
-              <img class="design__img" src="img/portfolio/portfolio4.png" alt="portfolio">
-              <img class="design__img" src="img/portfolio/portfolio5.png" alt="portfolio">
-              <img class="design__img" src="img/portfolio/portfolio6.png" alt="portfolio">
+              <picture><source srcset="assets/img/portfolio/portfolio1.webp" type="image/webp"><img class="design__img" src="assets/img/portfolio/portfolio1.png" alt="portfolio" title="" loading="lazy" tabindex="0"></picture>
+              <picture><source srcset="assets/img/portfolio/portfolio2.webp" type="image/webp"><img class="design__img" src="assets/img/portfolio/portfolio2.png" alt="portfolio" title="" loading="lazy" tabindex="0"></picture>
+              <picture><source srcset="assets/img/portfolio/portfolio3.webp" type="image/webp"><img class="design__img" src="assets/img/portfolio/portfolio3.png" alt="portfolio" title="" loading="lazy" tabindex="0"></picture>
+              <picture><source srcset="assets/img/portfolio/portfolio4.webp" type="image/webp"><img class="design__img" src="assets/img/portfolio/portfolio4.png" alt="portfolio" title="" loading="lazy" tabindex="0"></picture>
+              <picture><source srcset="assets/img/portfolio/portfolio5.webp" type="image/webp"><img class="design__img" src="assets/img/portfolio/portfolio5.png" alt="portfolio" title="" loading="lazy" tabindex="0"></picture>
+              <picture><source srcset="assets/img/portfolio/portfolio6.webp" type="image/webp"><img class="design__img" src="assets/img/portfolio/portfolio6.png" alt="portfolio" title="" loading="lazy" tabindex="0"></picture>
             </div>
-          </div>
-          </section>
-          <section class="contact container-main">
+          <div class="design__contact contact">
             <div class="contact__text">Interested working with me?</div>
-            <div class="contact__buttons">
-              <div class="contact__button email-me-button button">
-                <div class="contact__button-graphick">
-                  <svg width="46" height="32" viewBox="0 0 46 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M30.603 16.2311L45.825 25.8541V6.20508L30.603 16.2311Z" fill="white" />
-                    <path d="M0.671997 6.20508V25.8581L15.894 16.2351L0.671997 6.20508Z" fill="white" />
-                    <path d="M43.004 0.478027H3.49702C2.82835 0.482828 2.1837 0.727881 1.68069 1.16847C1.17769 1.60906 0.849854 2.21582 0.757019 2.87803L23.249 17.699L45.741 2.87803C45.6483 2.21633 45.3209 1.60997 44.8185 1.16945C44.3161 0.728923 43.6722 0.483545 43.004 0.478027Z" fill="white" />
-                    <path d="M28.018 17.9361L24.025 20.5661C23.7944 20.7171 23.5247 20.7975 23.249 20.7975C22.9734 20.7975 22.7037 20.7171 22.473 20.5661L18.48 17.9331L0.762024 29.1401C0.857801 29.798 1.18595 30.3999 1.68708 30.8368C2.1882 31.2737 2.82919 31.5168 3.49402 31.5221H43.004C43.6692 31.5173 44.3107 31.2744 44.8122 30.8375C45.3138 30.4005 45.6422 29.7984 45.738 29.1401L28.018 17.9361Z" fill="white" />
-                  </svg>
-                </div>
-                <div class="contact__button-text ">Email Me</div>
-              </div>
-              <div class="contact__button button">
-                <div class="contact__button-text">See More Design</div>
-              </div>
+            <div class="contact__buttons buttons">
+              <form method="post" action="mailto:zanuar.renaldie10@gmail.com">
+              <button class="contact__button email-button">
+                <img class="contact__button-img" src="assets/img/email.svg" alt="" title="">
+                <span  class="contact__button-text button-text">Email Me</span >
+              </button>
+            </form>
+            <form action="#">
+              <button class="contact__button button-text see-more">See More Design</button>
+            </form>
             </div>
+            
+          </div>
+        </div>
           </section>
           <section class="why-me">
             <div class="why-me__container container-main">
             <div class="why-me__section-title section-title">
-              <div class="why-me__title title"><span class="highlight">Why</span> Hire Me</div>
-              <div class="why-me__text sub-title">
+              <h2 class="why-me__title"><span class="highlight">Why</span> Hire Me</h2>
+              <h3 class="why-me__text">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-              </div>
+              </h3>
             </div>
             <div class="why-me__advantages">
               <div class="why-me__advantage">
-                <div class="why-me__advantage-rectangle"> </div>
-                  <img class="why-me__advantage-img" src="img/advantage/advantage1.png" alt="advantage">
+                <div class="why-me__advantage-rectangle"></div>
+                <picture><source srcset="assets/img/advantages/advantage1.webp" type="image/webp"><img class="why-me__advantage-img" src="assets/img/advantages/advantage1.png" alt="advantage" title="" loading="lazy" tabindex="0"></picture>
                 <div class="why-me__advantage-article">
                   <div class="why-me__advantage-title adv-text title">
                     Client's Favorite
@@ -168,10 +152,10 @@
               </div>
               <div class="why-me__advantage">
                 <div class="why-me__advantage-rectangle"> </div>
-                <img class="why-me__advantage-img" src="img/advantage/advantage2.png" alt="advantage">
+                <picture><source srcset="assets/img/advantages/advantage2.webp" type="image/webp"><img class="why-me__advantage-img" src="assets/img/advantages/advantage2.png" alt="advantage" title="" loading="lazy" tabindex="0"></picture>
                 <div class="why-me__advantage-article">
                   <div class="why-me__advantage-title title">
-                    Client's Favorite
+                    Communicative
                   </div>
                   <div class="why-me__advantage-text">
                     <p>Lorem ipsum dolor sit amet,</p>
@@ -181,10 +165,10 @@
               </div>
               <div class="why-me__advantage">
                 <div class="why-me__advantage-rectangle"> </div>
-                <img class="why-me__advantage-img" src="img/advantage/advantage3.png" alt="advantage">
+                <picture><source srcset="assets/img/advantages/advantage3.webp" type="image/webp"><img class="why-me__advantage-img" src="assets/img/advantages/advantage3.png" alt="advantage" title="" loading="lazy" tabindex="0"></picture>
                 <div class="why-me__advantage-article">
                   <div class="why-me__advantage-title title">
-                    Client's Favorite
+                    Collaborative
                   </div>
                   <div class="why-me__advantage-text">
                     <p>Lorem ipsum dolor sit amet,</p>
@@ -194,10 +178,10 @@
               </div>
               <div class="why-me__advantage">
                 <div class="why-me__advantage-rectangle"> </div>
-                <img class="why-me__advantage-img" src="img/advantage/advantage4.png" alt="advantage">
+                <picture><source srcset="assets/img/advantages/advantage4.webp" type="image/webp"><img class="why-me__advantage-img" src="assets/img/advantages/advantage4.png" alt="advantage" title="" loading="lazy" tabindex="0"></picture>
                 <div class="why-me__advantage-article">
                   <div class="why-me__advantage-title adv-text title">
-                    Client's Favorite
+                    Fast Respond
                   </div>
                   <div class="why-me__advantage-text">
                     <p>Lorem ipsum dolor sit amet,</p>
@@ -207,10 +191,10 @@
               </div>
               <div class="why-me__advantage">
                 <div class="why-me__advantage-rectangle"> </div>
-                <img class="why-me__advantage-img" src="img/advantage/advantage5.png" alt="advantage">
+                <picture><source srcset="assets/img/advantages/advantage5.webp" type="image/webp"><img class="why-me__advantage-img" src="assets/img/advantages/advantage5.png" alt="advantage" title="" loading="lazy" tabindex="0"></picture>
                 <div class="why-me__advantage-article">
                   <div class="why-me__advantage-title adv-text title">
-                    Client's Favorite
+                    Cheap Price
                   </div>
                   <div class="why-me__advantage-text">
                     <p>Lorem ipsum dolor sit amet,</p>
@@ -220,10 +204,10 @@
               </div>
               <div class="why-me__advantage">
                 <div class="why-me__advantage-rectangle"> </div>
-                <img class="why-me__advantage-img" src="img/advantage/advantage6.png" alt="advantage">
+                <picture><source srcset="assets/img/advantages/advantage6.webp" type="image/webp"><img class="why-me__advantage-img" src="assets/img/advantages/advantage6.png" alt="advantage" title="" loading="lazy" tabindex="0"></picture>
                 <div class="why-me__advantage-article">
                   <div class="why-me__advantage-title adv-text title">
-                    Client's Favorite
+                    Atractive Design
                   </div>
                   <div class="why-me__advantage-text">
                     <p>Lorem ipsum dolor sit amet,</p>
@@ -234,21 +218,19 @@
             </div>
           </div>
           </section>
-        </div>
   </main>
   <footer class="footer">
     <div class="footer__container">
-      <div class="footer__title title"><span class="highlight">Contact</span> Me</div>
-      <div class="footer__text">For business inquiry please send email to <span class="highlight">zanuar.renaldie10@gmail.com</span></div>
-      <div class="footer__socials">
-          <img class="footer__social social" src="img/socials/social1.svg" alt="" title="">
-          <img class="footer__social social" src="img/socials/social2.svg" alt="" title="">
-          <img class="footer__social social" src="img/socials/social3.svg" alt="" title="">
+      <h2 class="footer__title"><span class="highlight">Contact</span> Me</h2>
+      <div class="footer__text">For business inquiry please send email to <a href="mailto:zanuar.renaldie10@gmail.com" target="_blank"><span class="highlight">zanuar.renaldie10@gmail.com</span></a></div>
+      <div class="footer__socials socials">
+          <a href="https://dribbble.com/" target="_blank"><img class="footer__social social" src="assets/img/socials/social1.svg" alt="" title=""></a>
+          <a href="https://www.behance.net/" target="_blank"><img class="footer__social social" src="assets/img/socials/social2.svg" alt="" title=""></a>
+          <a href="https://www.instagram.com/" target="_blank"><img class="footer__social social" src="assets/img/socials/social3.svg" alt="" title=""></a>
       </div>
-        <img class="footer__logo" src="img/footer-logo.svg" alt="" title="">
+        <a class="footer__logo" href="#"><img class="footer__logo-img" src="assets/img/footer-logo.svg" alt="" title=""></a>
         </div>
   </footer>
-  </div>
-  <script src="js/script.js"></script>
+</div>
 </body>
 </html>
